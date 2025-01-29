@@ -5,7 +5,6 @@
 б) уместится ли квадрат в круге?*/
 
 #define _USE_MATH_DEFINES
-#include "Task_4_16.h"
 #include <math.h>
 
 
