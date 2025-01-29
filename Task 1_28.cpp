@@ -14,7 +14,7 @@ int main()
 	cin >> cube_side;
 	cube_v = pow(cube_side, 3);
 	cube_s = 4 * pow(cube_side, 2);
-	cout << "Площадь куба равна " << cube_s << " куб. см." << endl;
-	cout << "Объём куба равен " << cube_v << " куб. см." << endl;
+	cout << "Площадь куба равна " << cube_s << " кв. см." << endl;
+	cout << "Объём куба равен " << cube_v << " кв. см." << endl;
 	return 0;
 }
