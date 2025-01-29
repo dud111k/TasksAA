@@ -12,7 +12,7 @@ bool a_first(bool X, bool Y) {
 	return !(X && !Y) || X;
 }
 
-bool b_second(int X, int Y) {
+bool b_second(bool X, bool Y) {
 	return Y && !X || !Y;
 }
 
