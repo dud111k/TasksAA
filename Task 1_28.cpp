@@ -1,7 +1,5 @@
-﻿// Task 1_28.cpp: определяет точку входа для приложения.
 // Дана длина ребра куба. Найти объем куба и площадь его боковой поверхности.
 
-#include "Task 1_28.h"
 #include "iostream"
 #include "math.h"
 using namespace std;
