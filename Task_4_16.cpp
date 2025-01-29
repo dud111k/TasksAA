@@ -11,12 +11,16 @@
 using namespace std;
 
 void SquareInCircle(double circles, double squares) {
-	if (sqrt(circles / M_PI) >= sqrt(2 * squares)) { cout << "б) Квадрат умещается в круг." << endl; }
+	if (sqrt(circles / M_PI) >= sqrt(squares) * 2) { cout << "б) Квадрат умещается в круг." << endl; }
+	/* 
+  		Здесь я пользовался формулой r >= 2a,  она просто существует, но честно я не знаю как ее вывести( 
+  */
 	else { cout << "б) Квадрат не умещается в круг." << endl; }
 }
 
 void CircleInSquare(double circles, double squares) {
-	if (sqrt(squares) >= sqrt(circles / M_PI)) { cout << "а) Круг умещается в квадрат" << endl; }
+	if (sqrt(squares) / 2 >= sqrt(circles / M_PI)) { cout << "а) Круг умещается в квадрат" << endl; }
+		// Здесь я пользовался формулой r <= a/2
 	else { cout << "а) Круг не умещается в квадрат." << endl; }
 }
 
