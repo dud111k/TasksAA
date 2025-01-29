@@ -4,17 +4,15 @@
 #include "math.h"
 using namespace std;
 
-int main()
+int main(int argc, double argv[])
 {
-	double cube_side;
 	double cube_v;
 	double cube_s;
 	setlocale(0, "");
-	cout << "Введите длину ребра куба: ";
-	cin >> cube_side;
-	cube_v = pow(cube_side, 3);
-	cube_s = 4 * pow(cube_side, 2);
-	cout << "Площадь куба равна " << cube_s << " кв. см." << endl;
-	cout << "Объём куба равен " << cube_v << " кв. см." << endl;
+	cout << "Длина ребра куба: " << argv[1] << endl;
+	cube_v = pow(argv[0], 3);
+	cube_s = 4 * pow(argv[0], 2);
+	cout << "Площадь куба равна " << cube_s << " куб. см." << endl;
+	cout << "Объём куба равен " << cube_v << " куб. см." << endl;
 	return 0;
 }
