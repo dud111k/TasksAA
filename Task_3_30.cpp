@@ -4,7 +4,6 @@
 б) целое А не кратно трем и оканчивается нулем.
 */
 
-#include "Task_3_30.h"
 #include <iostream>
 #include <string>
 
