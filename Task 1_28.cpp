@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 	cout << "Длина ребра куба: " << argv[1] << endl;
 	cube_v = pow(side_l, 3);
 	cube_s = 4 * pow(side_l, 2);
-	cout << "Площадь куба равна " << cube_s << " куб. см." << endl;
+	cout << "Площадь куба равна " << cube_s << " кв. см." << endl;
 	cout << "Объём куба равен " << cube_v << " куб. см." << endl;
 	return 0;
 }
