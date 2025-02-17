@@ -16,8 +16,7 @@ int main(int argc, char* argv[])
 		cube_s = 4 * pow(side_l, 2);
 		cout << "Площадь куба равна " << cube_s << " куб. см." << endl;
 		cout << "Объём куба равен " << cube_v << " куб. см." << endl;
-	}
-	else {
+	} else {
 		cout << "Не задана длина ребра куба" << endl;
 	}
 	return 0;
